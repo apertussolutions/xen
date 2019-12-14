@@ -1,0 +1,49 @@
+
+<node>
+	<!-- object path of /org/xen/domain/{domid:0|uuid:00000000000000} means no specific domain --!>
+	<interface name="org.xen.domain">
+		<method name="CreateWithArgs">
+			<args/>
+		</method>
+		<method name="CreateWithFd">
+			<args/>
+		</method>
+		<method name="Restore">
+			<args/>
+		</method>
+		<method name="DomainId">
+			<args/>
+		</method>
+		<method name="List">
+			<args/>
+		</method>
+		<method name="Sharing"/>
+		<method name="Destroy"/>
+		<method name="Sharing"/>
+	</interface>
+	<interface name="org.xen.host">
+		<method name="DebugKeys">
+			<args/>
+		</method>
+		<method name="SetParams">
+			<args/>
+		</method>
+		<method name="Info">
+			<args/>
+		</method>
+		<method name="Uptime"/>
+		<method name="Claims"/>
+	</interface>
+	<interface name="org.xen.scheduler">
+	</interface>
+	<interface name="org.xen.cpupools">
+	</interface>
+	<interface name="org.xen.devices">
+	</interface>
+	<interface name="org.xen.pcipassthru">
+	</interface>
+	<interface name="org.xen.usbpassthru">
+	</interface>
+	<interface name="org.xen.flask">
+	</interface>
+</node>
